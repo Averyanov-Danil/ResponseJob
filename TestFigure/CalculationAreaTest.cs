@@ -7,7 +7,7 @@ namespace TestFigure
     public class TestFigure
     {
         [TestMethod]
-        public void Test_AreaCalc_Circle()
+        public void Circl_CalcArea_Test()
         {
             List<double> expected = new();
             List<int> rad = new();
@@ -42,7 +42,7 @@ namespace TestFigure
         }
 
         [TestMethod]
-        public void Test_AreaCalc_Triangle()
+        public void Triangle_CalcArea_Test()
         {
             List<double> expected = new();
             List<int[]> sides = new();
